@@ -29,7 +29,7 @@ public class AddService {
 
     public Result factorial(int a) throws Exception{
         if (a<0) {
-            String msg = "No se puede calcular el factorial de un número negativo. Valor enviado: ";
+            String msg = "No se puede calcular el factorial de un número negativo. Valor ingresado: ";
             LOGGER.log(Level.SEVERE, msg);
             throw new Exception(msg+a);
         }
